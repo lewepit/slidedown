@@ -102,7 +102,7 @@ slidedown presentation.md [-t TIMEOUT]
 
 | Option            | Description                                 | Default |
 | ----------------- | ------------------------------------------- | ------- |
-| `-t`, `--timeout` | Execution timeout for code blocks (seconds) | 3       |
+| `-t`, `--timeout` | Execution timeout for code blocks (seconds) | 10      |
 
 ## Keyboard Controls
 
