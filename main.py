@@ -324,8 +324,8 @@ class SlideDown:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Slidedown - Terminal Markdown Presentation Engine")
     parser.add_argument("file", help="Markdown presentation file")
-    parser.add_argument("-t", "--timeout", type=int, default=3,
-                        help="Execution timeout for live code blocks in seconds (default: 3)")
+    parser.add_argument("-t", "--timeout", type=int, default=10,
+                        help="Execution timeout for live code blocks in seconds (default: 10)")
     args = parser.parse_args()
     
     if not os.path.exists(args.file):
