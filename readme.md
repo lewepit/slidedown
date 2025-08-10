@@ -16,8 +16,7 @@ Slidedown is a powerful presentation engine that lets you create and deliver sty
 ```bash
 git clone https://github.com/lewepit/slidedown.git
 cd slidedown
-python3 main.py
-```
+python3 main.py examples/demo.md ```
 
 ## Quick Start
 
