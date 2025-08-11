@@ -149,7 +149,7 @@ class SlideDown:
                 try:
                     code = '\n'.join(code_lines)
                     process = subprocess.run(
-                        ['python', '-c', code],
+                        ['python3', '-c', code],
                         stdout=subprocess.PIPE,
                         stderr=subprocess.STDOUT,
                         text=True,
@@ -223,7 +223,7 @@ class SlideDown:
             try:
                 code = '\n'.join(code_lines)
                 process = subprocess.run(
-                    ['python', '-c', code],
+                    ['python3', '-c', code],
                     stdout=subprocess.PIPE,
                     stderr=subprocess.STDOUT,
                     text=True,
